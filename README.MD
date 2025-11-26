@@ -18,24 +18,7 @@ Aqui está no que estou trabalhando ativamente:
 * 🧠 **Engenharia de Dados Geoespaciais:** Integração de diferentes tipos de dados geoespaciais em nuvem, como Google, Arcgis, AWS para a viabilização das soluções geoespaciais criadas.
 * 🔄 **GeoAI:** Uso de algortimos de Machine e Deep Learning, bem como de frameowrks para a predição de dados, como classificação, regressão e detecção de objetos.
 
-### [Conheça meu portifólio ➔](https://silviolemos.notion.site/1f40ac350c6880f6ad0df8332eefde6d/)
-
----
-
-## &nbsp;Links Úteis (Hub da Equipe)
-
-Este é o nosso "hub" central para recursos de produto e desenvolvimento:
-
-* 🔗 **Documentação/Wiki (Notion):** [https://www.notion.so/20914d0699a481189febea2cf797dca7?v=20914d0699a481efb463000c4106aa22](https://www.notion.so/20914d0699a481189febea2cf797dca7?v=20914d0699a481efb463000c4106aa22)
-* 🔗 **Repositório do App Principal:** [https://github.com/Sertan-AI/sertanai-app](https://github.com/Sertan-AI/sertanai-app)
-* 🔗 **Ambiente de Staging/Testes:**
-    * [https://github.com/Sertan-AI/engine-lab](https://github.com/Sertan-AI/engine-lab)
-    * [https://github.com/Sertan-AI/pitch](https://github.com/Sertan-AI/pitch)
-    * [https://github.com/Sertan-AI/SertanAI-core](https://github.com/Sertan-AI/SertanAI-core)
-
----
-
-## &nbsp;Contato (SertanAI)
+## &nbsp;Contato 
 
 <a href="https://wa.me/5591991284476" target="_blank">
   <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" width="48" height="48" style="vertical-align:middle;"/>
@@ -46,3 +29,8 @@ Este é o nosso "hub" central para recursos de produto e desenvolvimento:
 <a href="https://github.com/silviolemos-cmd" target="_blank">
   <img src="https://skillicons.dev/icons?i=github" alt="GitHub" style="vertical-align:middle;"/>
 </a>
+
+---
+
+
+
