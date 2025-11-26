@@ -76,31 +76,13 @@ Aqui está no que estou trabalhando ativamente:
 ## &nbsp;Tecnologias e Ferramentas
 
 ### Ciência de Dados & BI
-
 <span>
-  <!-- Python -->
-  <img src="https://skillicons.dev/icons?i=python" alt="Python" style="vertical-align:middle;"/>
-
-  <!-- ArcGIS (no lugar do R) -->
-  <img src="https://www.svgrepo.com/download/450620/arcgis-online.svg" alt="ArcGIS" width="48" height="48" style="vertical-align:middle;"/>
-
-  <!-- Google Earth Engine (no lugar do Spyder) -->
-  <img src="https://earthengine.google.com/static/images/earth-engine-logo.png" alt="Google Earth Engine" width="48" height="48" style="vertical-align:middle;"/>
-
-  <!-- Anaconda -->
+  <img src="https://skillicons.dev/icons?i=python,gcp" alt="Python, GCP"/>
+  <img src="https://raw.githubusercontent.com/spyder-ide/spyder/master/branding/logo/logomark/spyder-logomark.svg" alt="Spyder" width="48" height="48" style="vertical-align:middle;"/>
   <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Anaconda-Dark.svg" alt="Anaconda" width="48" height="48" style="vertical-align:middle;"/>
-
-  <!-- Streamlit -->
   <img src="https://user-images.githubusercontent.com/7164864/217935870-c0bc60a3-6fc0-4047-b011-7b4c59488c91.png" alt="Streamlit" width="48" height="48" style="vertical-align:middle;"/>
-
-  <!-- NumPy -->
   <img src="https://img.shields.io/badge/NumPy-013243.svg?style=flat-square&logo=NumPy&logoColor=white" alt="NumPy" style="vertical-align:middle;"/>
-
-  <!-- GeoPandas (no lugar do Pandas) -->
-  <!-- Substitua o URL abaixo pelo logo do GeoPandas que preferir -->
-  <img src="YOUR_GEOPANDAS_LOGO_URL" alt="GeoPandas" height="32" style="vertical-align:middle;"/>
-
-  <!-- Power BI -->
+  <img src="https://img.shields.io/badge/pandas-150458.svg?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" style="vertical-align:middle;"/>
   <a href="https://www.microsoft.com/pt-br/power-bi" target="_blank">
     <img src="https://github.com/microsoft/PowerBI-Icons/raw/main/PNG/Power-BI.png" alt="Power BI" width="48" height="48" style="vertical-align:middle;"/>
   </a>
