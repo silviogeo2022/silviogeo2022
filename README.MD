@@ -20,6 +20,10 @@ Aqui está no que estou trabalhando ativamente:
 
 ## &nbsp;Contato 
 
+<a href="mailto:silviolemosamb@gmail.com" target="_blank">
+  <img src="https://skillicons.dev/icons?i=gmail" alt="Gmail" style="vertical-align:middle;"/>
+</a>
+
 <a href="https://wa.me/5591991284476" target="_blank">
   <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" width="48" height="48" style="vertical-align:middle;"/>
 </a>
