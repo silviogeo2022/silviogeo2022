@@ -18,7 +18,7 @@ Aqui está no que estou trabalhando ativamente:
 * 🧠 **Engenharia de Dados Geoespaciais:** Integração de diferentes tipos de dados geoespaciais em nuvem, como Google, Arcgis, AWS para a viabilização das soluções geoespaciais criadas.
 * 🔄 **GeoAI:** Uso de algortimos de Machine e Deep Learning, bem como de frameowrks para a predição de dados, como classificação, regressão e detecção de objetos.
 
-### [Conheça minha Missão e o Roadmap de Engenharia ➔](https://silviolemos-cmd.github.io/silviolemos-cmd/)
+### [Conheça meu portifólio ➔](https://silviolemos.notion.site/1f40ac350c6880f6ad0df8332eefde6d/)
 
 ---
 
