@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silvio Lemos - Engenheiro de Dados SertanAI</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+        /* === COPIADO EXATAMENTE DO SEU PITCH DECK === */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            scroll-behavior: smooth;
+        }
+
+        .section {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            padding: 4rem 2rem;
+            box-sizing: border-box;
+            color: white;
+            transition: background-color 1s ease-in-out;
+        }
+
+        .bg-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: 0;
+        }
+
+        .content {
+            z-index: 1;
+            max-width: 900px;
+            margin: auto;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+        }
+        .content.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        h1, h2, h3 {
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+        h1 { font-size: 3rem; }
+        h2 { font-size: 2.5rem; }
+        h3 { font-size: 1.8rem; }
+        p { font-size: 1.2rem; }
+        ul { list-style: none; padding: 0; }
+        
+        strong {
+            font-weight: 600;
+            color: #a4c95a; /* Cor de destaque da SertanAI */
+        }
+        
+        a {
+            color: #a4c95a;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Seção Home (Adaptada para Perfil) */
+        #home {
+            background-color: #2e4a30; /* Verde escuro do pitch */
+        }
+        .profile-pic {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #a4c95a;
+            margin-bottom: 1.5rem;
+        }
+        #home h1 {
+            font-size: 2.8rem;
+            margin-bottom: 0.5rem;
+        }
+        #home .subtitle {
+            font-size: 1.5rem;
+            font-weight: 300;
+            color: #f0f0f0;
+        }
+
+        /* Seção Missão (Fundo escuro) */
+        #missao {
+            background-color: #1a1a2e;
+        }
+        #missao p {
+            font-size: 1.5rem;
+            line-height: 1.8;
+            font-weight: 300;
+            max-width: 800px;
+        }
+
+        /* Seção Foco (Fundo claro, usando cards) */
+        #foco { 
+            background-color: #f4f4f4; 
+            color: #333; 
+        }
+        
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+            text-align: left;
+        }
+        .card {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .card:hover { transform: translateY(-10px); }
+        .card h3 { color: #a4c95a; }
+        .card p { 
+            font-size: 1rem; 
+            overflow-wrap: break-word; 
+        }
+
+        /* Seção Roadmap (Timeline) */
+        #roadmap {
+            background-color: #fff;
+            color: #333;
+        }
+        /* === Colado da timeline do pitch deck === */
+        .timeline {
+            position: relative;
+            max-width: 1000px;
+            margin: 3rem auto;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 0;
+            width: 2px;
+            height: 100%;
+            background: #e0e0e0;
+            transform: translateX(-50%);
+        }
+        .timeline-item {
+            position: relative;
+            margin-bottom: 2rem;
+            padding: 1rem 0;
+        }
+        .timeline-dot {
+            position: absolute;
+            left: 50%;
+            top: 2rem;
+            transform: translateX(-50%);
+            width: 1rem;
+            height: 1rem;
+            background: #a4c95a;
+            border-radius: 50%;
+            z-index: 10;
+        }
+        .timeline-content {
+            width: 45%;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            background: #f9f9f9;
+            text-align: left;
+            position: relative;
+        }
+        .timeline-item:nth-child(odd) .timeline-content { left: 52%; }
+        .timeline-item:nth-child(even) .timeline-content { left: -3%; }
+        .timeline-content::after {
+            content: '';
+            position: absolute;
+            top: 1.5rem;
+            width: 0;
+            height: 0;
+            border-style: solid;
+        }
+        .timeline-item:nth-child(odd) .timeline-content::after {
+            border-width: 10px 10px 10px 0;
+            border-color: transparent #f9f9f9 transparent transparent;
+            left: -10px;
+        }
+        .timeline-item:nth-child(even) .timeline-content::after {
+            border-width: 10px 0 10px 10px;
+            border-color: transparent transparent transparent #f9f9f9;
+            right: -10px;
+        }
+        .timeline-title {
+            font-size: 1.4rem;
+            margin-bottom: 0.5rem;
+            color: #1a1a2e;
+        }
+        .timeline-period {
+            font-size: 0.9rem;
+            color: #888;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+        .timeline-description { padding-left: 1rem; }
+        .timeline-description li {
+            font-size: 1rem;
+            list-style: disc;
+        }
+
+        @media (max-width: 768px) {
+            .timeline::before { left: 1rem; }
+            .timeline-content { width: 85%; left: 2rem !important; }
+            .timeline-dot { left: 1rem; }
+            .timeline-item:nth-child(odd) .timeline-content::after,
+            .timeline-item:nth-child(even) .timeline-content::after {
+                border-width: 10px 10px 10px 0;
+                border-color: transparent #f9f9f9 transparent transparent;
+                left: -10px;
+                right: auto;
+            }
+        }
+        /* === Fim do CSS Colado === */
+        
+        /* Seção Contato */
+        #contato { 
+            background: #1a1a2e; 
+            color: white; 
+            min-height: 50vh; /* Mais curta */
+        }
+        .contact-links {
+            margin-top: 2rem;
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+        }
+        .contact-links a {
+            font-size: 1.2rem;
+            padding: 0.5rem 1rem;
+            border: 2px solid #a4c95a;
+            border-radius: 50px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .contact-links a:hover {
+            background-color: #a4c95a;
+            color: #1a1a2e;
+            text-decoration: none;
+        }
+
+        footer { background-color: #111; color: #aaa; text-align: center; padding: 1rem; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+    <section id="home" class="section">
+        <div class="bg-overlay"></div>
+        <div class="content">
+            <img src="./pefil_silvio.png" alt="Foto de Perfil de Silvio Lemos" class="profile-pic">
+            <h1>Silvio Lemos</h1>
+            <p class="subtitle">Engenheiro de Dados Geoespaciais | Pipelines & Modelagem</p>
+        </div>
+    </section>
+
+    <section id="missao" class="section">
+        <div class="content">
+            <h2>Minha Missão na SertanAI</h2>
+            <p>
+                Minha missão é construir a <strong>infraestrutura de dados</strong> que move a SertanAI. Eu desenvolvo os pipelines,
+                protótipo as funções e organizo os bancos de dados, transformando dados geoespaciais brutos em
+                <strong>inteligência agronômica auditável</strong> e escalável.
+            </p>
+        </div>
+    </section>
+
+    <section id="foco" class="section">
+        <div class="content">
+            <h2>Pilares de Foco</h2>
+            <div class="grid-container">
+                <div class="card">
+                    <h3>Engenharia de Pipeline</h3>
+                    <p>Desenvolvimento e otimização dos pipelines de ingestão, tratamento, normalização estatística e armazenamento de dados geoespaciais (satélite, drone, solo, etc.).</p>
+                </div>
+                <div class="card">
+                    <h3>Modelagem & Prototipagem</h3>
+                    <p>Aplicação de modelos de dados (incluindo SHAP) para IA Explicável, prototipagem de novas funções de análise e organização do banco de dados para performance.</p>
+                </div>
+                <div class="card">
+                    <h3>Gestão de Sprints & Execução</h3>
+                    <p>Tradução do roadmap de produto em sprints de engenharia, garantindo a entrega contínua, testes e a qualidade dos outputs de dados.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="roadmap" class="section">
+        <div class="content">
+            <h2>Roadmap de Engenharia</h2>
+            <p>Estes são nossos próximos passos para entregar a revolução cognitiva no agro.</p>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Fase 1: MVP & Validação</h3>
+                        <p class="timeline-period">Q4 2025</p>
+                        <ul class="timeline-description">
+                            <li>Modelagem do banco de dados (PostgreSQL)</li>
+                            <li>Pipeline (processamento NDVI, solos, clima, etc.)</li>
+                            <li>Construção do módulo Formulário</li>
+                            <li>Construção do módulo Monitoramento</li>
+                            <li>Construção geral do app</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Fase 2: Integração com IA Explicável</h3>
+                        <p class="timeline-period">Q1 2026</p>
+                        <ul class="timeline-description">
+                            <li>Integração de novos sensores e APIs</li>
+                            <li>Automação do processamento geoespacial</li>
+                            <li>Desenvolvimento do módulo de IA Simbólica</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+    <section id="contato" class="section">
+        <div class="content">
+            <h2>Vamos construir juntos.</h2>
+            <p>Entre em contato para falar sobre engenharia de dados, pipelines ou o futuro do agro.</p>
+            <div class="contact-links">
+                <a href="httpsm://api.whatsapp.com/send/?phone=5591991284476&text&type=phone_number&app_absent=0" target="_blank">WhatsApp</a>
+                <a href="https://www.linkedin.com/in/silvio-lemos-75219096/" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>SertanAI - Perfil de Silvio Lemos</p>
+    </footer>
+
+    <script>
+        // O mesmo script de animação do pitch deck
+        document.addEventListener('DOMContentLoaded', () => {
+            const sections = document.querySelectorAll('.section');
+            const observerOptions = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.2
+            };
+            const observerCallback = (entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.querySelector('.content').classList.add('visible');
+                    }
+                });
+            };
+            const observer = new IntersectionObserver(observerCallback, observerOptions);
+            sections.forEach(section => observer.observe(section));
+        });
+    </script>
+
+</body>
+</html>
