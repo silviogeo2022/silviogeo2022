@@ -34,6 +34,9 @@ Aqui está no que estou trabalhando ativamente:
   <img src="https://skillicons.dev/icons?i=github" alt="GitHub" style="vertical-align:middle;"/>
 </a>
 
+<a href="https://silviolemos.notion.site/1f40ac350c6880f6ad0df8332eefde6d/" target="_blank">
+  <img src="https://img.shields.io/badge/Website-555555?style=for-the-badge" alt="Website" style="vertical-align:middle;"/>
+</a>
 ---
 
 
