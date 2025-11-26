@@ -19,11 +19,9 @@ Aqui está no que estou trabalhando ativamente:
 * 🔄 **GeoAI:** Uso de algortimos de Machine e Deep Learning, bem como de frameowrks para a predição de dados, como classificação, regressão e detecção de objetos.
 
 ## &nbsp;Contato 
-
 <a href="mailto:silviolemosamb@gmail.com" target="_blank">
   <img src="https://skillicons.dev/icons?i=gmail" alt="Gmail" style="vertical-align:middle;"/>
 </a>
-
 <a href="https://wa.me/5591991284476" target="_blank">
   <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" width="48" height="48" style="vertical-align:middle;"/>
 </a>
@@ -33,10 +31,10 @@ Aqui está no que estou trabalhando ativamente:
 <a href="https://github.com/silviogeo2022" target="_blank">
   <img src="https://skillicons.dev/icons?i=github" alt="GitHub" style="vertical-align:middle;"/>
 </a>
-
 <a href="https://silviolemos.notion.site/1f40ac350c6880f6ad0df8332eefde6d/" target="_blank">
   <img src="https://img.shields.io/badge/Website-555555?style=for-the-badge" alt="Website" style="vertical-align:middle;"/>
 </a>
+
 ---
 
 
