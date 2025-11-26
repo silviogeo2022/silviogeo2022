@@ -45,6 +45,11 @@ Aqui está no que estou trabalhando ativamente:
          alt="IBM Data Science" width="130" height="130">
   </a>
 
+  <a href="https://www.udemy.com/certificate/UC-9a9d3be0-7aa2-4451-a8f1-a89629b8c594/" target="_blank">
+    <img src="https://udemy-certificate.s3.amazonaws.com/image/UC-9a9d3be0-7aa2-4451-a8f1-a89629b8c594.jpg" 
+         alt="IBM Data Science" width="130" height="130">
+  </a>
+
 
 
 
