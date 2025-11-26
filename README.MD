@@ -37,5 +37,11 @@ Aqui está no que estou trabalhando ativamente:
 
 ---
 
+## &nbsp;Certificações
 
+<div align="left">
+  <a href="https://www.udemy.com/certificate/UC-13539cd8-bc39-4890-9c3c-28f12462c874/" target="_blank">
+    <img src="https://images.credly.com/size/680x680/images/42ce4209-8839-431a-9046-f2ce2e72e04b/Coursera_20Data_20Science_20Professional_20Certificate.png" 
+         alt="IBM Data Science" width="130" height="130">
+  </a>
 
