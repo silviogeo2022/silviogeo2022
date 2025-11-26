@@ -39,14 +39,15 @@ Aqui está no que estou trabalhando ativamente:
 
 ## &nbsp;Certificações
 
-<div style="display:flex;align-items:center;gap:12px">
+<div style="display:flex; flex-direction:column; align-items:center; gap:8px; width:130px;">
   <img src="https://cdn.cookielaw.org/logos/c7d0d27d-e055-4572-8927-d3c994df5f60/b85c39fb-f5de-428d-92c6-cbf7cd8c6b9c/525608f6-6540-490c-8724-59ec595c678a/udemy-logo.png"
-       alt="Udemy" width="130" height="130" style="display:block">
+       alt="Udemy" width="130" height="130" style="display:block;">
   <a href="https://www.udemy.com/certificate/UC-13539cd8-bc39-4890-9c3c-28f12462c874/" target="_blank"
-     style="text-decoration:none;color:#111827">
-    <strong style="font-size:14px;line-height:1.2">Treinamento Yolo</strong>
+     style="text-decoration:none;color:#111827;text-align:center;">
+    <strong style="font-size:14px;line-height:1.2;">Treinamento Yolo</strong>
   </a>
 </div>
+
 
 
 
