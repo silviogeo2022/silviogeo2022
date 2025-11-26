@@ -4,11 +4,9 @@
 
 ---
 
-## &nbsp;Meu Papel na SertanAI
+## &nbsp;Sobre Mim
 
-Como Engenheiro de Dados Geoespaciais, minha missão é **construir e otimizar os pipelines** que transformam dados brutos em inteligência agronômica.
-
-Atuo na fundação técnica do nosso produto, desenvolvendo os modelos (como SHAP), normalizando os dados e garantindo que nossa arquitetura seja robusta, escalável e capaz de entregar diagnósticos precisos.
+Sou engenheiro ambiental apaixonado por análise de dados e desenvolvimento de **soluções geoespaciais**. Tenho ampla experiência em Geotecnologias, Sensoriamento Remoto e Ciência de Dados Geoespaciais, desenvolvendo desde mapas até dashboards interativos e WebMaps, com domínio de ArcGIS, ArcGIS Enterprise, Google Cloud Platform (GCP), Python, JavaScript e outras tecnologias. Meu objetivo é **aplicar tecnologia para resolver problemas complexos que envolvem o “onde”**, atuando em Meio Ambiente, Mineração, Setor Florestal, Agronegócio, Óleo e Gás e Meio Urbano.
 
 ---
 
