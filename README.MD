@@ -52,9 +52,9 @@ Aqui está no que estou trabalhando ativamente:
     </a>
 
     <div>
-      <!-- Título clicável do certificado -->
+      <!-- Treinamento Yolo -->
       <a href="https://www.udemy.com/certificate/UC-13539cd8-bc39-4890-9c3c-28f12462c874/" target="_blank" style="text-decoration:none; color:#111827;">
-        <strong style="font-size:14px;">[NOME DO CERTIFICADO]</strong>
+        <strong style="font-size:14px;">[Treinamento Yolo]</strong>
       </a>
       <div style="font-size:12px; color:#6b7280;">Udemy</div>
     </div>
