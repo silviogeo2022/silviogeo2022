@@ -60,6 +60,15 @@ Aqui está no que estou trabalhando ativamente:
          alt="IBM Data Science" width="130" height="130">
   </a>
 
+  <a href="https://www.udemy.com/certificate/UC-cdb4402a-2af0-4855-9ca3-a401df908963/" target="_blank">
+    <img src="https://udemy-certificate.s3.amazonaws.com/image/UC-cdb4402a-2af0-4855-9ca3-a401df908963.jpg" 
+         alt="IBM Data Science" width="130" height="130">
+  </a>
+
+  <a href="https://www.udemy.com/certificate/UC-2eac4cf2-4a14-4cd4-9f70-38721ea0776a/" target="_blank">
+    <img src="https://udemy-certificate.s3.amazonaws.com/image/UC-2eac4cf2-4a14-4cd4-9f70-38721ea0776a.jpg" 
+         alt="IBM Data Science" width="130" height="130">
+  </a>
 
 
 
