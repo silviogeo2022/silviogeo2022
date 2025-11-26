@@ -10,13 +10,13 @@ Sou engenheiro ambiental apaixonado por análise de dados e desenvolvimento de *
 
 ---
 
-## &nbsp;Foco Atual (Engenharia de Dados)
+## &nbsp;Focos de Atuação
 
 Aqui está no que estou trabalhando ativamente:
 
-* 🚀 **Pipelines & Infraestrutura:** Desenhando e implementando o fluxo de dados, da ingestão à normalização estatística.
-* 🧠 **Modelagem & Prototipagem:** Desenvolvendo protótipos de funções, aplicando modelos (SHAP) e organizando o banco de dados.
-* 🔄 **Sprints & Execução:** Definindo e executando os sprints de engenharia de dados para materializar o roadmap.
+* 🚀 **Ciência de Dados Geoespaciais:** Criação de soluções baseado na integração de diferentes fontes de dados geoespaciais.
+* 🧠 **Engenharia de Dados Geoespaciais:** Integração de diferentes tipos de dados geoespaciais em nuvem, como Google, Arcgis, AWS para a viabilização das soluções geoespaciais criadas.
+* 🔄 **GeoAI:** Uso de algortimos de Machine e Deep Learning, bem como de frameowrks para a predição de dados, como classificação, regressão e detecção de objetos.
 
 ### [Conheça minha Missão e o Roadmap de Engenharia ➔](https://silviolemos-cmd.github.io/silviolemos-cmd/)
 
