@@ -77,7 +77,7 @@ Aqui está no que estou trabalhando ativamente:
 
 ### Ciência de Dados & BI
 <span>
-  <img src="https://skillicons.dev/icons?i=python,r" alt="Python, R"/>
+  <img src="https://skillicons.dev/icons?i=python,gcp" alt="Python, GCP"/>
   <img src="https://raw.githubusercontent.com/spyder-ide/spyder/master/branding/logo/logomark/spyder-logomark.svg" alt="Spyder" width="48" height="48" style="vertical-align:middle;"/>
   <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Anaconda-Dark.svg" alt="Anaconda" width="48" height="48" style="vertical-align:middle;"/>
   <img src="https://user-images.githubusercontent.com/7164864/217935870-c0bc60a3-6fc0-4047-b011-7b4c59488c91.png" alt="Streamlit" width="48" height="48" style="vertical-align:middle;"/>
