@@ -30,7 +30,7 @@ Aqui está no que estou trabalhando ativamente:
 <a href="https://www.linkedin.com/in/silvio-lemos-75219096/" target="_blank">
   <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" style="vertical-align:middle;"/>
 </a>
-<a href="https://github.com/silviolemos-cmd" target="_blank">
+<a href="https://github.com/silviogeo2022" target="_blank">
   <img src="https://skillicons.dev/icons?i=github" alt="GitHub" style="vertical-align:middle;"/>
 </a>
 
