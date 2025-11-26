@@ -41,7 +41,7 @@ Aqui está no que estou trabalhando ativamente:
 
 <div align="left">
   <a href="https://www.udemy.com/certificate/UC-13539cd8-bc39-4890-9c3c-28f12462c874/" target="_blank">
-    <img src="https://images.credly.com/size/680x680/images/42ce4209-8839-431a-9046-f2ce2e72e04b/Coursera_20Data_20Science_20Professional_20Certificate.png" 
-         alt="IBM Data Science" width="130" height="130">
+    <img src="https://cdn.cookielaw.org/logos/c7d0d27d-e055-4572-8927-d3c994df5f60/b85c39fb-f5de-428d-92c6-cbf7cd8c6b9c/525608f6-6540-490c-8724-59ec595c678a/udemy-logo.png"
+         alt="Udemy Certificate" width="130" height="130">
   </a>
 
