@@ -97,7 +97,7 @@ Aqui está no que estou trabalhando ativamente:
 
 ### Desenvolvimento & Automação
 <a href="https://github.com/samuel-c-santos">
-  <img src="https://skillicons.dev/icons?i=js,html,css,flask,react,git" alt="Dev & Automation Skills"/>
+  <img src="https://skillicons.dev/icons?i=js,html,flask,git" alt="Dev & Automation Skills"/>
 </a>
 
 ### Plataformas & Ferramentas
