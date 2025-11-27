@@ -93,6 +93,9 @@ Aqui está no que estou trabalhando ativamente:
   <a href="https://qgis.org/" target="_blank">
     <img src="https://github.com/qgis/QGIS/raw/master/images/icons/qgis-icon-512x512.png" alt="QGIS" width="48" height="48" style="vertical-align:middle;"/>
   </a>
+    <a href="https://arcgis.com/" target="_blank">
+    <img src="https://www.kindpng.com/picc/m/437-4376373_transparent-arcgis-logo-png-arcgis-pro-logo-png.png" alt="Arcgis" width="48" height="48" style="vertical-align:middle;"/>
+  </a>
 </a>
 
 ### Desenvolvimento & Automação
