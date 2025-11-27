@@ -75,10 +75,9 @@ Aqui está no que estou trabalhando ativamente:
 
 ## &nbsp;Tecnologias e Ferramentas
 
-### Ciência de Dados & BI
+### Ciência de Dados Geoespaciais, Engenharia de Dados Geoespaciais & BI
 <span>
   <img src="https://skillicons.dev/icons?i=python,gcp" alt="Python, GCP"/>
-  <img src="https://raw.githubusercontent.com/spyder-ide/spyder/master/branding/logo/logomark/spyder-logomark.svg" alt="Spyder" width="48" height="48" style="vertical-align:middle;"/>
   <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Anaconda-Dark.svg" alt="Anaconda" width="48" height="48" style="vertical-align:middle;"/>
   <img src="https://user-images.githubusercontent.com/7164864/217935870-c0bc60a3-6fc0-4047-b011-7b4c59488c91.png" alt="Streamlit" width="48" height="48" style="vertical-align:middle;"/>
   <img src="https://img.shields.io/badge/NumPy-013243.svg?style=flat-square&logo=NumPy&logoColor=white" alt="NumPy" style="vertical-align:middle;"/>
