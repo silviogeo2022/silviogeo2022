@@ -105,7 +105,7 @@ Aqui está no que estou trabalhando ativamente:
 
 ### Plataformas & Ferramentas
 <a href="https://github.com/samuel-c-santos">
-  <img src="https://skillicons.dev/icons?i=vscode,github,figma,docker,gcp,windows,heroku,render" alt="Platform & Tools Skills"/>
+  <img src="https://skillicons.dev/icons?i=vscode,github,aws,gcp,windows,render" alt="Platform & Tools Skills"/>
 </a>
 
 ---
